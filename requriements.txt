@@ -1,0 +1,40 @@
+board->size->n*n
+players->2
+rules
+(
+    if any row any coloumn any diagnol or any anti diagnol filled with same symbol considered as winner
+
+)
+outcomes
+1. player 1 wins
+2. player 2 wins
+3. Draw
+ classes{
+ board
+size by user
+matrix of char as symbol
+in order specify which is not filled we use default characters
+ }
+ function to fill default or we can use construct
+ print board at an instance
+ player class{
+    1.name(imp)
+    2.age
+    3.address
+    4.contact
+    5.emailid
+    6. player symbol(x,o)(imp)
+   intialize using constructor; or function 
+   print player delatails function(get prop)
+ }
+ game class{
+    //rules
+    playerdetails
+    board
+    int turn //to tell who should play;
+   int no.of moves // is all positions are marked by players or not
+boolean gameover
+ }
+
+row=index/size
+col=index%size
